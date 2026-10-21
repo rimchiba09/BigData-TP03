@@ -1,0 +1,4 @@
+# TP03 - Findings summary
+
+Findings summary:
+This dashboard analyzes a random 0.5% sample (924,519 clicks) of the TalkingData ad-click dataset used in TP02, covering 6 to 9 November 2017; the full file was too large (about 185M rows) to load in Power BI Desktop. Cleaning was done in Power Query: duplicates were removed, columns renamed, data types set, and Date and Hour columns created; no missing values were found (100% valid), and attributed_time was dropped. Only about 2K clicks led to a download, a conversion rate of 0.24%. App 3 and channel 280 generate the most clicks, clicks peak at hour 4 and drop sharply in the evening, and OS 19 and 13 bring the most downloads. Filtering 6 to 7 November gave 345K clicks and 815 downloads (still 0.24%), so conversion is stable across days. Filtering OS 10 gave 26K clicks, 32 downloads and 0.12%, half the average, though the small download count calls for confirmation on more data.
